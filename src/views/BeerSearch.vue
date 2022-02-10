@@ -6,7 +6,7 @@
       Brewhaus
     </p>
     <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-     If you are familiar with beer ID please enter it, clicking the button will give you a random beer details.
+     If you are familiar with beer ID please enter it (or) clicking the button will give you a random beer details.
     </p>
   </div>
   <div class="pt-2 relative mx-auto text-gray-600">

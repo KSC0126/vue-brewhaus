@@ -13,7 +13,6 @@
     </dd>
   </div>
   <div v-else>
-    <!-- <div class="absolute flex items-center justify-center rounded-md"> -->
     <div class=" "></div>
     <dt>
       <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
@@ -35,14 +34,12 @@
     <dd class="mt-10 pl-100px ml-6 text-sm text-gray-500">
       Tag Line: {{ beer.tagline }}
     </dd>
-    <!-- <div class=" ml-16  text-lg leading-6 font-medium text-gray-90"> -->
     <img
       v-if="beer.image_url"
       :src="beer.image_url"
       class="h-20 w-20 h-1/6 mr-20"
       aria-hidden="true"
     />
-    <!-- </div> -->
   </div>
 </template>
 
